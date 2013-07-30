@@ -21,5 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/derekchiang/fibers-augment/issues"
+  },
+
+  "dependencies": {
+    "fibers": "*"
   }
 }
