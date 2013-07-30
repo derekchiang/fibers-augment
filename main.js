@@ -32,4 +32,4 @@ function augment(obj, filter) {
   }
 }
 
-exports = augment
+module.exports = augment

@@ -1,6 +1,6 @@
 {
   "name": "fibers-augment",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Augment objects/namespaces to use fibers.",
   "main": "main.js",
   "scripts": {
