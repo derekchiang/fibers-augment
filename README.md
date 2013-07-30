@@ -1,6 +1,6 @@
 # fibers-augment
 
-Augment objects/namespaces to user [fibers](https://github.com/laverdet/node-fibers).
+Augment objects/namespaces to use [fibers](https://github.com/laverdet/node-fibers).
 
 ## Usage
 
@@ -38,3 +38,17 @@ Or, to augment all functions:
 ```js
 augment(fs)
 ```
+
+Sometimes you might find it helpful to augment a prototype:
+
+```js
+augment(SomeClass.prototype)
+```
+
+## Limitations
+
+This library assumes that the asynchronous functions being augmented are implemented with the conventional callback paradigm, namely having a callback as its last argument, and that the callback is called with two arguments, with the first argument being error and the second argument being the result of the asynchronous function.  All node.js standard library functions are implemented this way.
+
+## License
+
+[WTFPL](http://www.wtfpl.net/).
