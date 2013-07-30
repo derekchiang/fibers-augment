@@ -5,8 +5,9 @@ Augment objects/namespaces to use [fibers](https://github.com/laverdet/node-fibe
 ## Usage
 
 ```js
-var fs = require('fs')
-var augment = require('fibers-augment')
+var fs = require('fs'),
+    Fiber = require('fibers'),
+    augment = require('fibers-augment')
 
 // Augment a list of functions
 augment(fs, {
