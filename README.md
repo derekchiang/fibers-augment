@@ -2,6 +2,12 @@
 
 Augment objects/namespaces to use [fibers](https://github.com/laverdet/node-fibers).
 
+## Installation
+
+```bash
+$ npm install fibers-augment
+```
+
 ## Usage
 
 ```js
