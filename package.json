@@ -1,0 +1,25 @@
+{
+  "name": "fibers-augment",
+  "version": "0.0.0",
+  "description": "Augment objects/namespaces to use fibers.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekchiang/fibers-augment"
+  },
+  "keywords": [
+    "fiber",
+    "fibers",
+    "augment",
+    "sync",
+    "async"
+  ],
+  "author": "Derek Chiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekchiang/fibers-augment/issues"
+  }
+}
